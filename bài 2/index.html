@@ -1,0 +1,174 @@
+<html>
+    <head>
+        <title>Bài 2</title>
+    </head>
+
+    <body>
+        Môn Web bài 2
+        <!-- Để chú thích dùng: --> <!-- -->
+        <!-- có 2 cách chú thích: 
+        1.CTRL + K + C
+        2.CTRL + / 
+        -->
+
+
+
+        <!-- p: Thẻ phân đoạn(dùng để viết đoạn văn dài) -->
+        <p>Môn Web: Nhóm 04</p>
+
+
+        <!-- H: Đề mục  -->
+        <h1>Tiêu đề 1</h1>
+        <h2>Tiêu đề 2</h2>
+        <h3>Tiêu đề 3</h3>
+        <!-- 'H' càng Lớn tiêu đề càng Nhỏ -->
+
+
+        <!-- Thẻ 'br' để XUỐNG DÒNG -->
+        <p>
+            Môn phát triên ứng dụng Web<br>Nhóm 4
+        </p>
+
+        <div>Thẻ div</div>
+
+        <b>Thẻ 'b' để viết Đậm</b><br>
+        <i>Thẻ 'i' để viết Nghiêng</i><br>
+        <u>Thẻ 'u' để Gạch Chân</u><br>
+
+        <div>
+            <font face = "verdana">Phát triển ứng dụng Web</font><br>
+            <font size = 15>Phát triển ứng dụng Web</font><br>
+            <font color = "red">Phát triển ứng dụng Web</font><br>
+            <!-- VD: Viết tên: Phông chữ: Aria, Cỡ chữ: 5, Màu: Xanh lá -->
+            <font face="Arial" size="5" color="Green">Lê Thanh Tùng</font>
+            <!-- note: MỘT THẺ CÓ THỂ CÓ NHIỀU THUỘC TÍNH -->
+        </div>
+
+        <div>
+            <!-- 'sup': Định dạng chỉ số trên  -->
+            x<sup>2</sup><br>
+            <!-- 'sub': Định dạng chỉ số dưới -->
+            H<sub>2</sub>O
+        </div>
+
+        <div>
+            <img src="/ảnh/anh-meme--878x1024.jpg">
+            <!-- tìm hiểu ./ và ../  -->
+        </div>
+
+
+        <div>
+        <!-- LIÊN KẾT  -->
+            <a href="https://www.youtube.com/">Liên kết đến trrang YouTube</a>
+            <br>
+            <a href="/bài 1/index.html">Đi đến bài 1</a>
+        </div>
+
+        <div>
+            <!-- BẢNG  -->
+                <table border="1">
+                    <caption>Bảng 1: Bảng thông tin sinh viên</caption>
+                    <!-- Bảng 1 -->
+                        <tr>
+                            <th>STT</th>
+                            <th colspan="2">Họ và Tên</th>
+                            <!-- <th>Tên</th> -->
+                            <th>Mã Sinh Viên</th>
+                            <th>Lớp</th>
+                            <th>Giới Tính</th>
+                        </tr>
+                    <!-- Bảng 2 -->
+                        <tr>
+                            <td>1</td>
+                            <td>Đỗ Thị</td>
+                            <td>Tuyết Mai</td>
+                            <td>2321030247</td>
+                            <td>k67</td>
+                            <td>Nam</td>
+                            <!-- nếu muốn gộp 2 giới tính giống nhau vd thứ  tự 1 là nam thứ tự 2 cũng là nam thì xóa giới tính ở cột 2 rồi sửa lại là <td rowspan="2">Nam</td> -->
+                        </tr>
+                    <!-- Bảng 3 -->
+                        <tr>
+                            <td>2</td>
+                            <td>Lê</td>
+                            <td>Thanh Tùng</td>
+                            <td>2221050111</td>
+                            <td>HTTT D1</td>
+                            <td>Nam</td>
+                        </tr>
+                    <!-- Bảng 4 -->
+                            <td>3</td>
+                            <td>Lê</td>
+                            <td>Thu Trang</td>
+                            <td>2221050123</td>
+                            <td>HTTT D2</td>
+                            <td>Nữ</td>
+                </table>
+                <!-- ghép hàng là: colspan=""
+                ghép cột là: rowspan="" -->
+        </div>
+
+
+        <div>
+            <table border="1">
+                <caption>Bảng nội quy đổi giữa xét tuyển học bạ và xét tuyển theo kết quả thi THPT</caption>
+                <!-- Bảng 1 -->
+                    <tr>
+                        <th rowspan="2"> </th>
+                        <th colspan="2">Điểm Thi THPT</th>
+                        <th colspan="2">Điểm HB THPT</th>
+                    </tr>
+                <!-- Bảng 2 -->
+                    <tr>                        
+                        <th>c</th>
+                        <th>d</th>
+                        <th>a</th>
+                        <th>b</th>
+                    </tr>
+                <!-- Bảng 3 -->
+                    <tr>
+                        <th>Khoảng 1</th>
+                        <th>27,5</th>
+                        <th>30</th>
+                        <th>29</th>
+                        <th>3</th>
+                    </tr>
+                <!-- Bảng 4 -->
+                    <tr>
+                        <th>Khoảng 2</th>
+                        <th>22,5</th>
+                        <th>27,5</th>
+                        <th>24,5</th>
+                        <th>29</th>
+                    </tr>
+                <!-- Bảng 5 -->
+                    <tr>
+                        <th>Khoảng 3</th>
+                        <th>20</th>
+                        <th>22,5</th>
+                        <th>22</th>
+                        <th>24,5</th>
+                    </tr>
+                <!-- Bảng 6     -->
+                        <tr>
+                        <th>Khoảng 4</th>
+                        <th>17,5</th>
+                        <th>20</th>
+                        <th>20</th>
+                        <th>22</th>
+                    </tr>
+                <!-- Bảng 7 -->
+                        <tr>
+                        <th>Khoảng 5</th>
+                        <th>15</th>
+                        <th>17,5</th>
+                        <th>18</th>
+                        <th>20</th>
+                    </tr>
+
+                    
+            </table>
+        </div>
+    </body>
+
+    </html>
