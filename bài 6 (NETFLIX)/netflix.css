@@ -1,0 +1,135 @@
+body{
+    background-color: #1c1b20;
+    color: white;
+    margin: 0;
+}
+
+header{
+    display: flex;
+    justify-content:space-between;
+    padding: 0 20px;
+    align-items: center;
+    background-color: black; 
+}
+
+.danh-sach-muc{
+    list-style: none;
+    display: flex;
+    gap: 10px; 
+    padding: 0;
+}
+
+.lien-ket-muc{
+    text-decoration: none;
+    color: #BCBBBF;
+}
+
+.dang-chon{
+    background-color: #4C4B51;
+    color: white;
+}
+
+.muc{
+    padding:10px 20px;
+    border-radius: 20px;
+}
+
+.logo{
+    width: 5%;
+}
+
+.avatar{
+    width: 40px;
+    border-radius: 10px;
+}
+
+.muc:hover{
+    background-color: grey;
+}
+
+.banner{
+    width: 90%;
+    /* background-color: red; */
+    margin: 20px auto;
+}
+
+.banner-img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.the-loai{
+    width: 90%;
+    /* height: 20vh; */
+    /* background-color: red; */
+    margin: 10px auto;
+}
+
+.danh-sach-phim{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.phim{
+    /* background-color: blue; */
+    width: 19%;
+    height: 20vh;
+
+    img{
+        width: 100%;
+        height: 100%;
+        border-radius: 20px;
+        object-fit: cover;
+    }
+}
+
+.ft-cuoi{
+    width: 90%;
+    /* height: 20vh; */
+    /* background-color: red; */
+    margin: 10px auto;
+}
+
+.anh{
+    /* background-color: blue; */
+    width: 19%;
+    height: 20vh;
+}
+
+.danh-sach-anh{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.nhan-vat{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover ;
+}
+
+footer{
+    footer{
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+}
+}
+.mo-ta{
+    /* background-color:red; */
+    width: 70%;
+    margin: 20px auto;
+    display:flex;
+    justify-content: space-between;
+    padding: 0;
+    /* height:100px; */
+}
+
+.noi-dung-mo-ta{
+    display:flex;
+    justify-content:space-between;
+    /* background-color:green; */
+    color: grey;
+}
