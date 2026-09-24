@@ -1,0 +1,144 @@
+body{
+    margin: 0;
+}
+
+main{
+    display: flex;
+}
+
+.menu{
+    background-color: #2fa4e7;
+}
+
+.danh-sach-muc{
+    margin: 0px;
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.muc{
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+}
+
+.khoi-trai{
+    /* background-color: red; */
+    width: 10%;
+    height: 1095x;
+    border-right: 2px solid #2fa4e7;
+    margin: 0px auto;
+}
+
+.khoi-phai{
+    /* background-color: blue;   */
+    width: 90%;
+    height: 650px;   
+}
+
+.trang-chu{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    gap: 10px;
+}
+
+.thong-tin{
+    padding: 15px 0px;
+}
+a{
+    text-decoration: none;
+    color:#2fa4e7;
+}
+
+hr{
+    width: 95%;
+    color: #E3F3FC;
+}
+
+.anh{
+    width: 100%;
+    display: flex; 
+    align-items: flex-end;
+}
+
+img{
+    width: 95%;
+    margin-top: 100px;
+}
+
+p{
+    margin: 0px auto;
+}   
+
+h4{
+    margin: 0px;
+    padding: 15px;
+}
+
+.tin{
+    /* background-color: red;   */
+    width: 98%;
+    height: 900px;
+    border: 1px solid #2fa4e7;
+    border-radius: 10px;
+    margin: 20px auto ;
+}
+
+.tin-dau{
+    /* background-color: green ; */
+    width: 100%;
+    height: 50px;
+    padding: auto;
+    margin: auto;
+    border-bottom: 1px solid #2fa4e7;
+    color: #666565;
+}
+
+.thoi-khoa-bieu{
+    display: flex;
+    /* background-color: blue; */
+    margin: 0px;
+    padding: 7px;
+    gap: 10px;
+}
+
+select{
+    border-radius: 8px;
+    height: 37px;
+    color: #495057;
+    font-weight: 400;
+    width: 275px;
+    padding: 0 10px;
+}
+
+.ngay-hoc{
+    width:98%;
+    margin: 20px auto;
+    padding: 0;
+}
+
+.tiet-hoc{
+    width: 98%;
+    margin: 0px auto;
+}
+
+.mon-hoc{
+    background-color: #58b9f0;
+    border: 2px solid #1180c0;
+}
+
+.hoc{
+    width: 16.5vh;
+    margin: 0px auto;
+    padding: 2px;
+}
+
+.gio{
+    background-color: #2fa4e7;
+    color: white;
+}
+
+
+
