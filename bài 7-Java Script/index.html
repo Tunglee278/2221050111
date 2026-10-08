@@ -84,7 +84,7 @@
         document.writeln(homNay);
 
         // khai báo ngày cụ thể định dạng ngày/tháng/năm 
-        var ngay = new Date(27/08/2004);
+        var ngay = new Date(27/8/2004);
         document.writeln(ngay);
 
         // lấy năm
@@ -131,6 +131,7 @@
         document.writeln(mangSo.length);
 
         //  Gộp mảng concat 
+        document.writeln("<br>");
         var mang = mangSo.concat(mangTen, thongTin);
         document.writeln(mang);
 
@@ -205,6 +206,66 @@
         else{
             document.writeln("A");
         }
+
+        // Object var name = { }
+        var thongTinSinhVien = {
+            hoTen: "Le Thanh Tung",
+            tuoi: 29,
+            gioiTinh:true, //true: Nam, false: nữ
+            diaChi:{
+                thanhPho: "Ha Noi",
+                phuong: "Dong Da",
+                duong: "Truong Chinh"
+            }
+        };
+
+        var thongTinPhim = {
+            tenPhim: "Avengers: Doomdays",
+            theLoaiPhim: "Hanh Dong",
+            dienVien: "Robert Downey JR",
+            thoiLuongPhim: 180,
+            hangPhim: "Marvel",
+        };
+
+        // switch case
+        var d = new Date();
+        var theDay = d.getDay();
+        switch (theDay) {
+            case 5:
+                document.writeln("Finally Friday");
+                break;
+            
+            case 6:
+                document.writeln("Super Saturday");
+                break;
+
+            case 0:
+                document.writeln("Sleepy Sunday");
+                break;
+            default:
+                document.writeln("I'm looking forward to this weekend");
+                break;
+        }
+
+        for ( var index = 1; index <= 2; index++){
+            document.writeln("<br> xin chào!" + index);
+        }
+
+        var danhSachSinhVien = ["Thuy","Mai","Tuan","Thang","Thao"];
+        document.writeln("<br> xinchao"+danhSachSinhVien[0]);
+        for ( var i = 0; i < danhSachSinhVien.length; i++){
+            document.writeln("<br>" + i + "<br>");
+            document.writeln("xin chào" + danhSachSinhVien[i]);
+        }
+
+        var danhSachSinhVien = ["Thuy","Mai","Tuan","Thang","Thao"];
+        // document.writeln("<br> xinchao"+danhSachSinhVien[0]);
+        for ( var i = 0; i < danhSachSinhVien.length; i++){
+            if ( danhSachSinhVien[i] == "Tuan" & danhSachSinhVien[i] == "Thuy"){
+                document.writeln("<br> xin chao " + danhSachSinhVien[i])
+            } 
+        }
+
     </script>
 
     <!-- External JavaScript  -->
