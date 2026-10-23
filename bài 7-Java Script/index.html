@@ -51,7 +51,7 @@
         document.writeln("<br>");
         document.writeln(tenSinhVien.indexOf("l"));
 
-        // includes kiểm tra xem từ trong chuỗi cóa trong chuỗi không. Nếu Có = True / Nếu Không = False 
+        // (includes): kiểm tra xem từ trong chuỗi cóa trong chuỗi không. Nếu Có = True / Nếu Không = False 
         document.writeln("<br>");
         document.writeln(tenSinhVien.includes("u"));
 
@@ -59,8 +59,8 @@
         document.writeln("<br>");
         document.writeln(tenSinhVien.replace ("Le", "Thanh"));
 
-        // kiểm tra kí tự bắt đầu
-    //    StartWith 
+        // kiểm tra kí tự bắt đầu dùng startWith 
+    // kết quả trả về true/flase
         document.writeln("<br>");
         document.writeln(tenSinhVien.startsWith("Tung"));
 
@@ -266,6 +266,27 @@
             } 
         }
 
+        // BUỔI 7 - NGÀY 23/10/26 
+        // popup boxes, dùng để hiển thị một số cảnh báo
+        alert("xin chao!");
+
+        // confirm(box) 
+        // var r = confirm("Press a button");
+        // document.writeln("<br>");
+        // if(r == true){
+        //     document.writeln("You pressed OK!");
+        // }
+        // else{
+        //     document.writeln("You pressed Cancel!");
+        // }
+
+        // prompt(box ) cho phép người dùng nhập thông tin vào box 
+        r = prompt("Nhập vào họ tên", "Nhập tên vào đây!");
+        document.writeln("<br>");
+        document.writeln(r);
+
+        // Hàm(function) 
+        
     </script>
 
     <!-- External JavaScript  -->
