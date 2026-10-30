@@ -94,7 +94,7 @@ header{
 .anh{
     /* background-color: blue; */
     width: 19%;
-    height: 20vh;
+    height: 20opx;
 }
 
 .danh-sach-anh{
@@ -107,15 +107,14 @@ header{
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    object-fit: cover ;
+    object-fit: cover;
+    display: block;
 }
 
 footer{
-    footer{
     display: flex;
     flex-direction: column;
     padding: 0 20px;
-}
 }
 .mo-ta{
     /* background-color:red; */
